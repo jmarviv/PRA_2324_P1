@@ -1,4 +1,7 @@
 #include <iostream>
+#ifndef LIST_H
+#define LIST_H
+
 using namespace std;
 
 template <typename T> 
@@ -14,3 +17,4 @@ class List {
 	int size();
 };
 
+#endif
