@@ -1,3 +1,8 @@
+
+bin/testListLinked: testListLinked.cpp ListLinked.h List.h
+	mkdir -p bin
+	g++ -o bin/testListLinked testListLinked.cpp ListLinked.h
+
 bin/testListArray: testListArray.cpp ListArray.h List.h
 	mkdir -p bin
 	g++ -o bin/testListArray testListArray.cpp ListArray.h

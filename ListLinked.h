@@ -101,6 +101,10 @@ class ListLinked : public List<T> {
 			return false;
 	 };
 
+	 int size(){
+		 return n;
+	 };
+
 	 ListLinked(){
 		 first = nullptr;
 		 n = 0;
